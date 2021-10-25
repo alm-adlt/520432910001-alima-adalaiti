@@ -1,7 +1,7 @@
 
 int [] colors ={#050505,#FFFFFF,#FC4C4C,#FC9636,#FCFC36,#58FA51,#2DF7D0,#1ADEFF,#D279FF};//pen color
 int pc=0;//color of pen now
-float d=30;//size of pen
+float d;//size of pen
 int p;//pen type
 
 
@@ -9,13 +9,13 @@ int p;//pen type
 void setup(){
   size(1000,1000);
   background(255);
- 
+  d=30;
 
 }
 
 void draw(){
 showboard();
- 
+sizechanging();
 
 //pen changing----------
 
@@ -135,6 +135,28 @@ void download(float x,float y){
 
 }
 
+void sizechanging(){
+  if(mousePressed){
+    if(mouseX>120&&mouseX<150&&mouseY>110&&mouseY<115){
+      d=5;
+    }
+  
+    if(mouseX>165&&mouseX<195&&mouseY>110&&mouseY<125){
+      d=15;
+    }    
+  
+    if(mouseX>215&&mouseX<245&&mouseY>110&&mouseY<140){
+      d=30;
+    }        
+    
+    
+    
+  
+  
+  }
+
+}
+
 void showboard(){
   fill(#A7A7A7);
   noStroke();
@@ -160,6 +182,8 @@ void showboard(){
   String s3="save";
   String s4="key";
   String s5="c       k      p                    s";
+  String s6="size";
+  String s7="click to change size";
   fill(255);
   textSize(30);
   text(s1,25,40);
@@ -167,6 +191,10 @@ void showboard(){
   text(s3,875,40);
   text(s4,25,90);
   text(s5,710,90);
+  fill(0);
+  text(s6,25,130);
+  textSize(20);
+  text(s7,300,120);
 //color showing----------------------
   for(int i=0;i<9;i++){
     fill(colors[i]);
@@ -192,5 +220,14 @@ void showboard(){
     ellipse(820,30,d,d);    
 fill(255);
 download(950,10);
+
+//size changing---------------------------
+
+noStroke();
+fill(0);
+rect(120,110,30,5);
+rect(165,110,30,15);
+
+rect(215,110,30,30);
 
 }
