@@ -1,5 +1,7 @@
 ### 第七次作业-自相似与分形
 
+代码：https://github.com/alm-adlt/520432910001-alima-adalaiti/blob/main/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A-%E8%87%AA%E7%9B%B8%E4%BC%BC%E4%B8%8E%E5%88%86%E5%BD%A2/homework%20code
+
 #### 思路来源：自然界花朵花瓣的分形
 自然界中花朵的花瓣从内至外几乎是完全一样的基本形态，花瓣的形状，花瓣的数量等都是一样的，只是错开了大小与角度。
 
