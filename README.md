@@ -22,3 +22,12 @@ https://github.com/alm-adlt/520432910001-alima-adalaiti/tree/main/%E7%AC%AC%E4%B
 ### 第六次作业：自组织与涌现性-粒子系统
 
 https://github.com/alm-adlt/520432910001-alima-adalaiti/tree/main/%E7%AC%AC%E5%85%AD%E6%AC%A1%E4%BD%9C%E4%B8%9A-%E8%87%AA%E7%BB%84%E7%BB%87%E4%B8%8E%E6%B6%8C%E7%8E%B0%E6%80%A7
+
+### 第七次作业：复杂性｜自相似与分形
+
+https://github.com/alm-adlt/520432910001-alima-adalaiti/tree/main/%E7%AC%AC%E4%B8%83%E6%AC%A1%E4%BD%9C%E4%B8%9A-%E8%87%AA%E7%9B%B8%E4%BC%BC%E4%B8%8E%E5%88%86%E5%BD%A2
+
+
+### 第八次作业：复杂性，遗传算法|基于遗传算法的设计优化系统
+
+https://github.com/alm-adlt/520432910001-alima-adalaiti/tree/main/%E7%AC%AC%E5%85%AB%E6%AC%A1%E4%BD%9C%E4%B8%9A-%E5%9F%BA%E4%BA%8E%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%BC%98%E5%8C%96%E7%B3%BB%E7%BB%9F
