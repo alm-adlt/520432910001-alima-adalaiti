@@ -30,14 +30,37 @@ void display（）{
 
 ![](https://github.com/alm-adlt/homework/blob/main/image/graphic_design_helper%202021-11-06%2018-56-43%2000_00_05-00_00_13.gif)
 
-3.因该程序基因数较少，所以采用较高的变异率以提升获得不同图样的概率
+所有鼠标互动都通过button设置按钮，便于操作。
+
+3.因该程序基因数较少，每一次展示的图样也较少，所以采用较高的变异率以提升获得不同图样的概率
 ```
 void setup(){
 ……
   float mutationRate=0.6;
 ……
+}
+
+
+```
+4.通过鼠标互动进行下一代的更新
+
+![](https://github.com/alm-adlt/homework/blob/main/image/graphic_design_helper%202021-11-06%2018-56-43%2000_00_12-00_00_18.gif)
+
+```
+//if user want new genaration
+void mousePressed(){
+  if(button.clicked(mouseX,mouseY))
+  {population.select();
+  population.reproduction();
+  }
 
 }
+
+void mouseReleased(){
+  button.released();
+}
 ```
+
+
 
 
